@@ -13,7 +13,7 @@
     
     body {
       font-family: Arial, sans-serif;
-      background-color: #fff;
+      background-color: #f2f2f2;
       color: #000;
       line-height: 1.5;
     }
@@ -23,6 +23,15 @@
       padding: 20px;
       text-align: center;
       color: #fff;
+    }
+    
+    header h1 {
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+    
+    header p {
+      font-size: 16px;
     }
     
     nav ul {
@@ -47,27 +56,27 @@
       background-image: url('hero-bg.jpg');
       background-size: cover;
       background-position: center;
-      height: 100vh;
+      height: 600px;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
+      color: #fff;
     }
     
     .hero h1 {
       font-size: 60px;
       margin-bottom: 20px;
-      color: #fff;
     }
     
     .hero p {
       font-size: 24px;
       margin-bottom: 40px;
-      color: #fff;
     }
     
     .about-section {
+      background-color: #fff;
       padding: 80px 20px;
       text-align: center;
     }
@@ -83,24 +92,31 @@
     }
     
     .project-section {
+      background-color: #f2f2f2;
       padding: 80px 20px;
       text-align: center;
-      background-color: #f2f2f2;
     }
     
     .project-section h2 {
       font-size: 36px;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
     
     .project-section .project {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       margin-bottom: 40px;
     }
     
     .project-section .project img {
-      width: 100%;
+      width: 400px;
       height: auto;
-      margin-bottom: 20px;
+      margin-right: 20px;
+    }
+    
+    .project-section .project .project-info {
+      text-align: left;
     }
     
     .project-section .project h3 {
@@ -127,7 +143,48 @@
 </head>
 <body>
   <header>
+    <h1>Paolo Barbieri</h1>
+    <p>Web Developer & Designer</p>
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Explore my work and services</p>
+  </div>
+
+  <div class="about-section">
+    <h2>About Me</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies tortor non ex lacinia, vitae malesuada eros feugiat. Integer pharetra nisl eget dapibus consectetur. In et lacus vitae mauris sollicitudin convallis.</p>
+  </div>
+
+  <div class="project-section">
+    <h2>My Projects</h2>
+    <div class="project">
+      <img src="project1.jpg" alt="Project 1">
+      <div class="project-info">
+        <h3>Project 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies tortor non ex lacinia, vitae malesuada eros feugiat.</p>
+      </div>
+    </div>
+    <div class="project">
+      <img src="project2.jpg" alt="Project 2">
+      <div class="project-info">
+        <h3>Project 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies tortor non ex lacinia, vitae malesuada eros feugiat.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Paolo Barbieri. All rights reserved.</p>
+  </footer>
+</body>
+</html>
