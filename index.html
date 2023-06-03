@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | Daniel Malaj</title>
+  <title>Zero Lab</title>
   <style>
     * {
       box-sizing: border-box;
@@ -12,7 +12,7 @@
     }
     
     body {
-      font-family: 'Space Grotesk', sans-serif;
+      font-family: Arial, sans-serif;
       background-color: #fff;
       color: #000;
     }
@@ -20,7 +20,7 @@
     header {
       padding: 20px;
       background-color: #000;
-      text-align: left;
+      text-align: center;
     }
     
     nav {
@@ -44,26 +44,28 @@
       font-size: 18px;
     }
     
-    .about-section {
-      padding: 40px;
+    .hero {
+      background-image: url('background.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       text-align: center;
     }
     
-    .about-section h2 {
-      font-size: 36px;
+    .hero h1 {
+      font-size: 60px;
       margin-bottom: 20px;
+      color: #fff;
     }
     
-    .about-section p {
-      font-size: 16px;
-      line-height: 1.5;
-      margin-bottom: 20px;
-    }
-    
-    .about-section img {
-      width: 200px;
-      height: auto;
-      margin-bottom: 20px;
+    .hero p {
+      font-size: 24px;
+      margin-bottom: 40px;
+      color: #fff;
     }
   </style>
 </head>
@@ -72,18 +74,15 @@
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
         <li><a href="#">About</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <div class="about-section">
-    <h2>About Us</h2>
-    <img src="profile.jpg" alt="Profile">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum mauris eu mi ullamcorper, vitae finibus turpis lobortis. Nulla facilisi. Donec rutrum augue vitae dui ultricies, in vulputate sem volutpat. Morbi dapibus metus vel ipsum fermentum, ut lobortis quam volutpat.</p>
-    <p>Praesent suscipit purus nec nulla sagittis, nec fringilla est ultricies. Nam consequat dapibus erat, ac dignissim sem dignissim nec. In sed ex id nulla pharetra tristique. Fusce in augue sed turpis dignissim malesuada.</p>
+  <div class="hero">
+    <h1>Zero Lab</h1>
+    <p>Your Creative Partner</p>
   </div>
 </body>
 </html>
