@@ -12,14 +12,14 @@
     }
     
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Space Grotesk', sans-serif;
       background-color: #f2f2f2;
       color: #000;
       line-height: 1.5;
     }
     
     header {
-      background-color: #000;
+      background-color: #f2f2f2;
       padding: 20px;
       text-align: center;
       color: #fff;
@@ -75,46 +75,62 @@
       margin-bottom: 40px;
     }
     
-    .portfolio-section {
-      background-color: #fff;
+    .about-section {
+      background-color: #f2f2f2;
       padding: 80px 20px;
       text-align: center;
     }
     
-    .portfolio-section h2 {
+    .about-section h2 {
       font-size: 36px;
       margin-bottom: 20px;
     }
     
-    .portfolio-section .project {
+    .about-section p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    
+    .project-section {
+      background-color: #f2f2f2;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    
+    .project-section h2 {
+      font-size: 36px;
+      margin-bottom: 40px;
+    }
+    
+    .project-section .project {
       display: flex;
       justify-content: center;
       align-items: center;
       margin-bottom: 40px;
     }
     
-    .portfolio-section .project img {
+    .project-section .project img {
       width: 400px;
       height: auto;
       margin-right: 20px;
     }
     
-    .portfolio-section .project .project-info {
+    .project-section .project .project-info {
       text-align: left;
     }
     
-    .portfolio-section .project h3 {
+    .project-section .project h3 {
       font-size: 24px;
       margin-bottom: 10px;
     }
     
-    .portfolio-section .project p {
+    .project-section .project p {
       font-size: 16px;
       margin-bottom: 10px;
     }
     
     footer {
-      background-color: #000;
+      background-color: #f2f2f2;
       color: #fff;
       padding: 40px;
       text-align: center;
@@ -127,13 +143,13 @@
 </head>
 <body>
   <header>
-    <h1>Graphic Designer Portfolio</h1>
-    <p>Showcasing my creative work</p>
+    <h1>Daniel Malaj</h1>
+    <p>Graphic Designer</p>
     <nav>
       <ul>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Portfolio</a></li>
         <li><a href="#">About</a></li>
+        <li><a href="#">Portfolio</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
@@ -141,10 +157,19 @@
 
   <div class="hero">
     <h1>Welcome to My Portfolio</h1>
-    <p>Discover my artistic vision and designs</p>
+    <p>Explore my work and services</p>
   </div>
 
-  <div class="portfolio-section">
+  <div class="about-section">
+    <h2>About Me</h2>
+    <p>Penso che il graphic design debba essere utile e funzionale ad uno scopo e non semplicemente un artefatto estetico fine a se stesso.
+Per quanto riguarda il mio metodo di lavoro, discutere ed evidenziare le necessità di un cliente sono i primi passi che aiutano a definire
+i mezzi e gli strumenti utili per arrivare ad un elaborato soddisfacente ed efficace. La pulizia e la chiarezza sono aspetti che caratterizzano i miei progetti, etica ed estetica elementi fondamentali se integrati dopo tanto studio e un'attenta ricerca . Mi piace sperimentare
+e attraversare trasversalmente i diversi campi del design, come
+il lavoro manuale e interessandomi a nuovi metodi di progettazione.</p>
+  </div>
+
+  <div class="project-section">
     <h2>My Projects</h2>
     <div class="project">
       <img src="project1.jpg" alt="Project 1">
@@ -163,7 +188,6 @@
   </div>
 
   <footer>
-    <p>&copy; 2023 Graphic Designer Portfolio. All rights reserved.</p>
   </footer>
 </body>
 </html>
